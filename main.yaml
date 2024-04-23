@@ -1,0 +1,292 @@
+- Great Plateau:
+  - SOR clip:
+      icon: sor
+      coord: [-1124.96, 238.47, 1903.14]
+      notes: Don't activate ToD
+  - Run to Boko Camp:
+      coord: [-964.50, 238.84, 1953.28]
+  - (Min) 2 peppers and (min) 2 shrooms:
+      coord: [-964.50, 238.84, 1953.28]
+      icon: item
+      notes: Get enough food to last until kak. Recommend 6 peppers, roast steak and 4 shrooms (this is totally overkill)
+  - Pot Lid:
+      coord: [-952.34, 238.33, 1959.44]
+      icon: shield
+  - Torch:
+      coord: [-944.59, 238.76, 1954.08]
+      notes: If missed torch, get traveler's sword at Tower
+      icon: weapon
+  - Run and surf to ToT:
+      coord: [-887.25,1989.5080869073454]
+  - Traveler's Bow:
+      coord: [-832.43, 222.00, 1963.11]
+      notes: Clip in
+      icon: chest
+  - 5x Arrow:
+      coord: [-821.73, 221.98, 1963.27]
+      comment: Break pot
+      icon: bow
+  - BLSS and clip in:
+      coord: [-449.48, 163.04, 1990.06]
+  - _Shrine::JaBaij
+  - Old Man:
+      coord: [-449.48, 163.04, 1990.06]
+      comment: Text options 2-1-1-2
+      icon: oldman
+  - _Tower::GreatPlateau
+  - _Shrine::OmanAu
+  - BLSS -> Tree WB -> Clip in:
+      coord: [-828.25,2254.975952091315]
+  - Owa Daim:
+      coord: [-928.57, 266.82, 2321.73]
+      comment: Get sledgehammer
+      icon: shrine
+  - Boulder -> BLSS -> Clip in:
+      coord: [-1437.27, 316.69, 1995.57]
+  - _Shrine::KehNamut
+  - BLSS:
+      coord: [-809.33, 263.58, 1964.35]
+  - Paraglider:
+      coord: [-809.33, 263.58, 1964.35]
+      icon: oldman
+- Kakariko:
+  - Soldier's Bow:
+      coord: [-809.33, 263.58, 1964.35]
+      icon: bow
+      comment: Drop traveler's bow
+  - BLSS to Kakariko:
+      coord: [1772.71, 229.43, 984.31]
+  - Talk to Impa:
+      coord: [1772.71, 229.43, 984.31]
+      icon: impa
+  - _Shrine::TalohNaeg
+  - 2x Fairy:
+      coord: [1974.80, 269.50, 859.20]
+      icon: item
+  - 2x Nightshade:
+      coord: [1963.82, 267.76, 854.37]
+      icon: item
+  - IST:
+      coord: [1834.25,1019.375]
+      icon: ist
+      notes: Sim link https://zsr.link/7YhoE (ignore everything after kak statue)
+  - Sell 300+ fairies:
+      coord: [1837.125,1023.7839830109397]
+      icon: chest
+  - Buy 10x arrow:
+      coord: [1836.375,1018.6790584037362]
+      icon: bow
+  - Kakariko Statue:
+      coord: [1840.12, 218.54, 997.89]
+      comment: Exchange stam (do this for all statues)
+      icon: zelda
+      counter: .var(counter-statue)
+      notes: "Orb count: 1, 5, 5"
+- Spring of Courage:
+  - BLSS off stump:
+      coord: [1870,815.5]
+  - Farosh scale:
+      coord: [1739,2967.25]
+      icon: item
+  - Offer scale to statue:
+      coord: [874.84, 125.34, 2359.00]
+      icon: item
+  - Spring of Courage Statue:
+      coord: [874.84, 125.34, 2359.00]
+      icon: zelda
+      counter: .var(counter-statue)
+      comment: Offer scale first
+      notes: "Orb count: 2, 5"
+  - Save-reload:
+      coord: [874.84, 125.34, 2359.00]
+      notes: "Orb count: 2, 5, 2, 5"
+- Lurelin:
+  - BLSS off terrain:
+      coord: [785,2407.8609543188213]
+  - Lurelin Statue:
+      movements:
+        - [1354,3308.8132917532184]
+        - [2702,3293.8683394733944]
+        - [2923.36, 106.25, 3444.56]
+      icon: zelda
+      counter: .var(counter-statue)
+      notes: "Orb count: 3, 2, 5"
+- Hateno:
+  - BLSS using rock:
+     movements:
+      - [2832.75,3310.9589979610028]
+      - [2819,3223.7585125340484]
+      - [2992,3208.5198625794455]
+  - Hateno Statue:
+      coord: [3439.16, 236.02, 2098.46]
+      icon: zelda
+      counter: .var(counter-statue)
+      notes: "Orb count: 1, 5"
+  - Save-reload:
+      coord: [3439.16, 236.02, 2098.46]
+      notes: "Orb count: 1, 5, 1, 5"
+- Spring of Wisdom:
+  - WB chain up to Naydra:
+      movements:
+        - [3640,2098.8308843235836]
+        - [3784,2114.821804287266]
+        - [3817,1696.778106612488]
+        - [4019,1518.8791220165213]
+        - [3966,1354.9721923887773]
+  - Naydra fight:
+     movements:
+      - [3856,1314.4826202429858]
+      - [3898,1682.6589311358184]
+      - [3427,1358.8428018712511]
+     icon: bow
+  - Spring of Wisdom Statue:
+     movements:
+     - to: [3966,1354.9721923887773]
+       warp: true
+       exclude: true
+     icon: zelda
+     counter: .var(counter-statue)
+     comment: Offer scale first
+     notes: "Orb count: 3, 5"
+  - Save-reload:
+     coord: [3966,1354.9721923887773]
+     notes: "Orb count: 3, 5, 3, 5"
+- Goron City:
+  - Goron City Statue:
+     coord: [1722.25, 498.86, -2456.24]
+     comment: It's just 1 long BLSS
+     icon: zelda
+     counter: .var(counter-statue)
+     notes: "Orb count: 4, 3, 5"
+- Korok Forest:
+  - WB chain to Lost Woods:
+     movements:
+      - [1156,-2506.3223412892767]
+      - [756,-2356.4074666297565]
+     comment: Void out in the Test of Wood zone
+  - Korok Forest Statue:
+     movements:
+      - to: [564.99, 264.83, -2160.65]
+        warp: true
+        exclude: true
+      - [415.74, 258.73, -2179.85]
+     icon: zelda
+     counter: .var(counter-statue)
+     notes: "Orb count: 3, 5"
+  - Save-reload:
+     coord: [415.74, 258.73, -2179.85]
+     notes: "Orb count: 3, 5, 3, 5"
+- Rito Village:
+   - BLSS from top of Deku Tree:
+      movements:
+       - [434,-2094.131944277741]
+       - [412.9375,-2179.4517230256383]
+   - Rito Village Statue:
+      movements:
+       - [-69,-1774.176493205924]
+       - [-3610.42, 286.45, -1805.15]
+      icon: zelda
+      counter: .var(counter-statue)
+      notes: "Orb count: 4, 3, 5"
+- Forgotten Temple:
+  - "BLSS from trees by Akh Va'quot":
+     coord: [-3665,-1765.1058391733277]
+  - Forgotten Temple Statue:
+     movements:
+      - [-2959,-1238.0732077928114]
+      - [-1433,-2251.7646131834485] 
+      - [-1083.3125,-2668.9971979575425]
+     comment: You should see Dinraal on the way (else rip). Get scale and WB the rest of the way
+     icon: zelda
+     counter: .var(counter-statue)
+     notes: "Orb count: 3, 5"
+  - Save-reload:
+     coord: [-1083.3125,-2668.9971979575425]
+- "Zora's Domain":
+  - "Warp to Ta'loh Naeg":
+     color: red
+     movements:
+     - to: [1841.625,890.4899977724936]
+       warp: true
+       exclude: true    
+     icon: shrine
+  - BLSS off stump:
+     coord: [1873.5,814.9472222889035]
+  - "Zora's Domain Statue":
+     coord: [3316.89, 256.04, -503.94]
+     icon: zelda
+     counter: .var(counter-statue)
+     notes: "Orb count: 4, 3, 5"
+- Tarrey Town:
+  - BLSS from top of water fall:
+     movements:
+      - [3303.375,-502.6932459604823]
+      - [3152,-478.06895152578727]
+      - [3063,-478.56866777465257]
+     notes: This spot is a bit low so you need to go under the bridge by the citadel
+  - Tarrey Town Statue:
+     movements:
+      - [3032,-305.1231479925582]
+      - [2641,-400.069235276922]
+      - [2948,-1216.2951011803234]
+      - [3576,-1188.3109912438777]
+      - [3966.27, 233.84, -1611.22]
+     icon: zelda
+     counter: .var(counter-statue)
+     notes: "Orb count: 3, 5"
+  - Save-reload:
+     coord: [3966.27, 233.84, -1611.22]
+     notes: "Orb count: 3, 5, 3, 5"
+- Spring of Power:
+  - Spring of Power Statue:
+     coord: [3760.55, 111.16, -2679.37]
+     icon: zelda
+     counter: .var(counter-statue)
+     notes: "Orb count: 4, 3, 5"
+     comment: Offer scale first
+- Temple of Time:
+  - Warp to Tower:
+     color: yellow
+     movements:
+     - to: [-560.04, 176.56, 1694.86]
+       warp: true
+       exclude: true    
+     icon: tower
+  - Temple of Time Statue:
+     coord: [-823.26, 225.44, 2031.48]
+     icon: zelda
+     counter: .var(counter-statue)
+     comment: Turn WB S
+     notes: "Orb count: 3, 5"
+- Gerudo Town:
+  - BLSS from EMS spot:
+     movements:
+      - [-786.5,2043.9506273025227]
+      - [-919,2152.882810781275]
+  - Talk to Benja:
+     coord: [-3804.64, 149.50, 2818.36]
+     icon: misc
+  - Buy Gerudo clothes:
+     coord: [-3261.375,2606.478718664881]
+     icon: item
+  - Gerudo Town Statue:
+     coord: [-3769.63, 148.98, 2944.35]
+     icon: zelda
+     counter: .var(counter-statue)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+      
