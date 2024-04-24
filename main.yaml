@@ -70,10 +70,10 @@
       coord: [1834.25,1019.375]
       icon: ist
       notes: Sim link https://zsr.link/7YhoE (ignore everything after kak statue)
-  - Sell 300+ fairies:
+  - Sell 10 fairies:
       coord: [1837.125,1023.7839830109397]
       icon: chest
-  - Buy 10x arrow:
+  - Buy 10x fire arrow:
       coord: [1836.375,1018.6790584037362]
       icon: bow
   - Kakariko Statue:
@@ -191,6 +191,7 @@
 - Forgotten Temple:
   - "BLSS from trees by Akh Va'quot":
      coord: [-3665,-1765.1058391733277]
+     comment: Bomb trees for wood
   - Forgotten Temple Statue:
      movements:
       - [-2959,-1238.0732077928114]
@@ -263,16 +264,11 @@
      movements:
       - [-786.5,2043.9506273025227]
       - [-919,2152.882810781275]
-  - Talk to Benja:
-     coord: [-3804.64, 149.50, 2818.36]
-     icon: misc
-  - Buy Gerudo clothes:
-     coord: [-3261.375,2606.478718664881]
-     icon: item
   - Gerudo Town Statue:
      coord: [-3769.63, 148.98, 2944.35]
      icon: zelda
      counter: .var(counter-statue)
+     comment: Use campfire unloading on the edge of town
 
 
 
