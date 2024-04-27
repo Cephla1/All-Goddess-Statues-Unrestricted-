@@ -8,7 +8,6 @@
   - (Min) 2 peppers and (min) 2 shrooms:
       coord: [-964.50, 238.84, 1953.28]
       icon: item
-      notes: Get enough food to last until kak. Recommend 6 peppers, roast steak and 4 shrooms (this is totally overkill)
   - Pot Lid:
       coord: [-952.34, 238.33, 1959.44]
       icon: shield
@@ -18,7 +17,7 @@
       icon: weapon
   - Run and surf to ToT:
       coord: [-887.25,1989.5080869073454]
-  - Traveler's Bow:
+  - "Traveler's Bow":
       coord: [-832.43, 222.00, 1963.11]
       notes: Clip in
       icon: chest
@@ -43,6 +42,7 @@
       icon: shrine
   - Boulder -> BLSS -> Clip in:
       coord: [-1437.27, 316.69, 1995.57]
+      comment: get 1 stack of wood from the blss tree
   - _Shrine::KehNamut
   - BLSS:
       coord: [-809.33, 263.58, 1964.35]
@@ -69,7 +69,10 @@
   - IST:
       coord: [1834.25,1019.375]
       icon: ist
-      notes: Sim link https://zsr.link/7YhoE (ignore everything after kak statue)
+      notes: Sim link https://zsr.link/ZZdi_ (ignore everything after kak statue)
+  - Save-reload:
+     coord: [1834.25,1019.375]
+     notes: "Orb count: 5, 5, 5, 5"
   - Sell 10 fairies:
       coord: [1837.125,1023.7839830109397]
       icon: chest
@@ -81,7 +84,10 @@
       comment: Exchange stam (do this for all statues)
       icon: zelda
       counter: .var(counter-statue)
-      notes: "Orb count: 1, 5, 5"
+      notes: "Orb count: 1, 5, 5, 5"
+  - Save-reload:
+     coord: [1840.12, 218.54, 997.89]
+     notes: "Orb count: 5, 5, 5, 1, 5, 5, 5"
 - Spring of Courage:
   - BLSS off stump:
       coord: [1870,815.5]
@@ -96,10 +102,10 @@
       icon: zelda
       counter: .var(counter-statue)
       comment: Offer scale first
-      notes: "Orb count: 2, 5"
-  - Save-reload:
+      notes: "Orb count: 2, 5, 5, 5, 5, 5"
+  - Save-reload x2:
       coord: [874.84, 125.34, 2359.00]
-      notes: "Orb count: 2, 5, 2, 5"
+      notes: "Orb count: 5, 5, 5, 5, 2, 5, 5, 5, 5, 5"
 - Lurelin:
   - BLSS off terrain:
       coord: [785,2407.8609543188213]
@@ -110,7 +116,7 @@
         - [2923.36, 106.25, 3444.56]
       icon: zelda
       counter: .var(counter-statue)
-      notes: "Orb count: 3, 2, 5"
+      notes: "Orb count: 1, 5, 5, 5, 2, 5, 5, 5, 5, 5"
 - Hateno:
   - BLSS using rock:
      movements:
@@ -121,10 +127,7 @@
       coord: [3439.16, 236.02, 2098.46]
       icon: zelda
       counter: .var(counter-statue)
-      notes: "Orb count: 1, 5"
-  - Save-reload:
-      coord: [3439.16, 236.02, 2098.46]
-      notes: "Orb count: 1, 5, 1, 5"
+      notes: "Orb count: 2, 5, 5, 2, 5, 5, 5, 5, 5"
 - Spring of Wisdom:
   - WB chain up to Naydra:
       movements:
@@ -139,6 +142,11 @@
       - [3898,1682.6589311358184]
       - [3427,1358.8428018712511]
      icon: bow
+  - Shoot Nayrda:
+     coord: [3427,1358.8428018712511]
+     comment: Offer scale to open door
+     icon: bow
+  - _Shrine::JitanSami
   - Spring of Wisdom Statue:
      movements:
      - to: [3966,1354.9721923887773]
@@ -146,18 +154,14 @@
        exclude: true
      icon: zelda
      counter: .var(counter-statue)
-     comment: Offer scale first
-     notes: "Orb count: 3, 5"
-  - Save-reload:
-     coord: [3966,1354.9721923887773]
-     notes: "Orb count: 3, 5, 3, 5"
+     notes: "Orb count: 4, 5, 2, 5, 5, 5, 5, 5"
 - Goron City:
   - Goron City Statue:
      coord: [1722.25, 498.86, -2456.24]
      comment: It's just 1 long BLSS
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 4, 3, 5"
+     notes: "Orb count: 5, 2, 5, 5, 5, 5, 5"
 - Korok Forest:
   - WB chain to Lost Woods:
      movements:
@@ -172,10 +176,7 @@
       - [415.74, 258.73, -2179.85]
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 3, 5"
-  - Save-reload:
-     coord: [415.74, 258.73, -2179.85]
-     notes: "Orb count: 3, 5, 3, 5"
+     notes: "Orb count: 1, 2, 5, 5, 5, 5, 5"
 - Rito Village:
    - BLSS from top of Deku Tree:
       movements:
@@ -187,11 +188,10 @@
        - [-3610.42, 286.45, -1805.15]
       icon: zelda
       counter: .var(counter-statue)
-      notes: "Orb count: 4, 3, 5"
+      notes: "Orb count: 4, 5, 5, 5, 5"
 - Forgotten Temple:
   - "BLSS from trees by Akh Va'quot":
      coord: [-3665,-1765.1058391733277]
-     comment: Bomb trees for wood
   - Forgotten Temple Statue:
      movements:
       - [-2959,-1238.0732077928114]
@@ -200,9 +200,7 @@
      comment: You should see Dinraal on the way (else rip). Get scale and WB the rest of the way
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 3, 5"
-  - Save-reload:
-     coord: [-1083.3125,-2668.9971979575425]
+     notes: "Orb count: 5, 5, 5, 5"
 - "Zora's Domain":
   - "Warp to Ta'loh Naeg":
      color: red
@@ -217,7 +215,7 @@
      coord: [3316.89, 256.04, -503.94]
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 4, 3, 5"
+     notes: "Orb count: 1, 5, 5, 5"
 - Tarrey Town:
   - BLSS from top of water fall:
      movements:
@@ -234,16 +232,13 @@
       - [3966.27, 233.84, -1611.22]
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 3, 5"
-  - Save-reload:
-     coord: [3966.27, 233.84, -1611.22]
-     notes: "Orb count: 3, 5, 3, 5"
+     notes: "Orb count: 2, 5, 5"
 - Spring of Power:
   - Spring of Power Statue:
      coord: [3760.55, 111.16, -2679.37]
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 4, 3, 5"
+     notes: "Orb count: 3, 5"
      comment: Offer scale first
 - Temple of Time:
   - Warp to Tower:
@@ -258,7 +253,7 @@
      icon: zelda
      counter: .var(counter-statue)
      comment: Turn WB S
-     notes: "Orb count: 3, 5"
+     notes: "Orb count: 4"
 - Gerudo Town:
   - BLSS from EMS spot:
      movements:
