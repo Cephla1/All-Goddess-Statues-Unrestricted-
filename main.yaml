@@ -192,11 +192,13 @@
 - Forgotten Temple:
   - "BLSS from trees by Akh Va'quot":
      coord: [-3665,-1765.1058391733277]
+     comment: Get wood from tree
+  - Set morning:
+     coord: [-3248,-984.3508400640576]
+  - Shoot Dinraal and get scale:
+     coord: [-2708,-1488.0637891025558]
   - Forgotten Temple Statue:
-     movements:
-      - [-2959,-1238.0732077928114]
-      - [-1433,-2251.7646131834485] 
-      - [-1083.3125,-2668.9971979575425]
+     coord: [-1083.3125,-2668.9971979575425]
      comment: You should see Dinraal on the way (else rip). Get scale and WB the rest of the way
      icon: zelda
      counter: .var(counter-statue)
