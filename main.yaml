@@ -73,7 +73,7 @@
   - Save-reload:
      coord: [1834.25,1019.375]
      notes: "Orb count: 5, 5, 5, 5"
-  - Sell 10 fairies:
+  - Sell 80 fairies:
       coord: [1837.125,1023.7839830109397]
       icon: chest
   - Buy 10x fire arrow:
