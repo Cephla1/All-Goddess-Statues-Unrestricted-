@@ -257,15 +257,15 @@
      comment: Turn WB S
      notes: "Orb count: 4"
 - Gerudo Town:
-  - BLSS from EMS spot:
-     movements:
-      - [-786.5,2043.9506273025227]
-      - [-919,2152.882810781275]
+  - BLSS from top of ToT:
+     coord: [-807.5,1972.6641410070506]
   - Gerudo Town Statue:
-     coord: [-3769.63, 148.98, 2944.35]
+     movements:
+      - [-2246,1841.5637281021618]
+      - [-3769.63, 148.98, 2944.35]
      icon: zelda
      counter: .var(counter-statue)
-     comment: Use campfire unloading on the edge of town
+     notes: Use campfire unloading to get in. Climb over the wall by the guard on the eastern wall so you're in town in-line with the statue. Run and mash A. The campfire will still be there to retry if it fails
 
 
 
