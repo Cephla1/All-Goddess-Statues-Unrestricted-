@@ -72,7 +72,6 @@
       notes: Sim link https://zsr.link/ZZdi_ (ignore everything after kak statue)
   - Save-reload:
      coord: [1834.25,1019.375]
-     notes: "Orb count: 5, 5, 5, 5"
   - Sell 80 fairies:
       coord: [1837.125,1023.7839830109397]
       icon: chest
@@ -84,10 +83,8 @@
       comment: Exchange stam (do this for all statues)
       icon: zelda
       counter: .var(counter-statue)
-      notes: "Orb count: 1, 5, 5, 5"
   - Save-reload:
      coord: [1840.12, 218.54, 997.89]
-     notes: "Orb count: 5, 5, 5, 1, 5, 5, 5"
 - Spring of Courage:
   - BLSS off stump:
       coord: [1870,815.5]
@@ -102,10 +99,8 @@
       icon: zelda
       counter: .var(counter-statue)
       comment: Offer scale first
-      notes: "Orb count: 2, 5, 5, 5, 5, 5"
   - Save-reload x2:
       coord: [874.84, 125.34, 2359.00]
-      notes: "Orb count: 5, 5, 5, 5, 2, 5, 5, 5, 5, 5"
 - Lurelin:
   - BLSS off terrain:
       coord: [785,2407.8609543188213]
@@ -116,7 +111,6 @@
         - [2923.36, 106.25, 3444.56]
       icon: zelda
       counter: .var(counter-statue)
-      notes: "Orb count: 1, 5, 5, 5, 2, 5, 5, 5, 5, 5"
 - Hateno:
   - BLSS using rock:
      movements:
@@ -127,7 +121,6 @@
       coord: [3439.16, 236.02, 2098.46]
       icon: zelda
       counter: .var(counter-statue)
-      notes: "Orb count: 2, 5, 5, 2, 5, 5, 5, 5, 5"
 - Spring of Wisdom:
   - WB chain up to Naydra:
       movements:
@@ -154,14 +147,12 @@
        exclude: true
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 4, 5, 2, 5, 5, 5, 5, 5"
 - Goron City:
   - Goron City Statue:
      coord: [1722.25, 498.86, -2456.24]
      comment: It's just 1 long BLSS
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 5, 2, 5, 5, 5, 5, 5"
 - Korok Forest:
   - WB chain to Lost Woods:
      movements:
@@ -176,19 +167,18 @@
       - [415.74, 258.73, -2179.85]
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 1, 2, 5, 5, 5, 5, 5"
 - Rito Village:
    - BLSS from top of Deku Tree:
       movements:
        - [434,-2094.131944277741]
        - [412.9375,-2179.4517230256383]
+      notes: This can be very difficult and inconsistent so warping to cryo is a good alternative
    - Rito Village Statue:
       movements:
        - [-69,-1774.176493205924]
        - [-3610.42, 286.45, -1805.15]
       icon: zelda
       counter: .var(counter-statue)
-      notes: "Orb count: 4, 5, 5, 5, 5"
 - Forgotten Temple:
   - "BLSS from trees by Akh Va'quot":
      coord: [-3665,-1765.1058391733277]
@@ -197,12 +187,12 @@
      coord: [-3248,-984.3508400640576]
   - Shoot Dinraal and get scale:
      coord: [-2708,-1488.0637891025558]
+     icon: bow
   - Forgotten Temple Statue:
      coord: [-1083.3125,-2668.9971979575425]
      comment: You should see Dinraal on the way (else rip). Get scale and WB the rest of the way
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 5, 5, 5, 5"
 - "Zora's Domain":
   - "Warp to Ta'loh Naeg":
      color: red
@@ -217,7 +207,6 @@
      coord: [3316.89, 256.04, -503.94]
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 1, 5, 5, 5"
 - Tarrey Town:
   - BLSS from top of water fall:
      movements:
@@ -234,14 +223,14 @@
       - [3966.27, 233.84, -1611.22]
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 2, 5, 5"
 - Spring of Power:
   - Spring of Power Statue:
      coord: [3760.55, 111.16, -2679.37]
      icon: zelda
      counter: .var(counter-statue)
-     notes: "Orb count: 3, 5"
      comment: Offer scale first
+  - Save-reload:
+     coord: [3760.55, 111.16, -2679.37]
 - Temple of Time:
   - Warp to Tower:
      color: yellow
@@ -255,7 +244,6 @@
      icon: zelda
      counter: .var(counter-statue)
      comment: Turn WB S
-     notes: "Orb count: 4"
 - Gerudo Town:
   - BLSS from top of ToT:
      coord: [-807.5,1972.6641410070506]
