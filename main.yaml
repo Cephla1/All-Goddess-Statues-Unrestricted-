@@ -49,163 +49,149 @@
   - Paraglider:
       coord: [-809.33, 263.58, 1964.35]
       icon: oldman
-- Kakariko:
+- Korok Forest:
   - Soldier's Bow:
       coord: [-809.33, 263.58, 1964.35]
       icon: bow
       comment: Drop traveler's bow
-  - BLSS to Kakariko:
-      coord: [1772.71, 229.43, 984.31]
-  - Talk to Impa:
-      coord: [1772.71, 229.43, 984.31]
-      icon: impa
-  - _Shrine::TalohNaeg
-  - 2x Fairy:
-      coord: [1974.80, 269.50, 859.20]
+  - BLSS to Korok Forest:
+      movements:
+       - [-945.5,2150.7696188215723]
+       - [414.29, 335.23, -2191.91]
+  - 2x fairies:
+      coord: [414.29, 335.23, -2191.91]
       icon: item
-  - 2x Nightshade:
-      coord: [1963.82, 267.76, 854.37]
+  - 2x silent princess:
+      coord: [432.59, 249.18, -2117.53]
       icon: item
   - IST:
-      coord: [1834.25,1019.375]
+      coord: [422.81, 259.99, -2187.32]
       icon: ist
-      notes: Sim link https://zsr.link/ZZdi_ (ignore everything after kak statue)
-  - Save-reload:
-     coord: [1834.25,1019.375]
-  - Sell 80 fairies:
-      coord: [1837.125,1023.7839830109397]
-      icon: chest
-  - Buy 10x fire arrow:
-      coord: [1836.375,1018.6790584037362]
-      icon: bow
-  - Kakariko Statue:
-      coord: [1840.12, 218.54, 997.89]
+      notes: .link(https://zsr.link/gw1w_)
+  - Save/reload:
+     coord: [422.81, 259.99, -2187.32]
+  - Korok Forest Statue:
+      coord: [415.74, 258.73, -2179.85]
       comment: Exchange stam (do this for all statues)
       icon: zelda
       counter: .var(counter-statue)
   - Save-reload:
+     coord: [415.74, 258.73, -2179.85]
+- Rito Village:
+  - BLSS off top of Deku Tree:
+      movements:
+       - [432.59, 249.18, -2117.53]
+       - [419.82, 335.87, -2186.64]
+  - Dinraal Scale:
+      coord: [-196.46, 153.20, -1218.59]
+      icon: item
+  - Naydra Scale:
+      coord: [-182.29, 235.23, -1169.52]
+      icon: item
+      comment: WB N + midair S
+  - BLSS to Rito :
+      coord: [-3610.42, 286.45, -1805.15]
+  - Rito Village Statue:
+      coord: [-3610.42, 286.45, -1805.15]
+      icon: zelda
+      counter: .var(counter-statue)
+  - Save/reload:
+      coord: [-3610.42, 286.45, -1805.15]
+- Forgotten Temple:
+  - Forgotten Temple BLSS:
+      movements:
+        - [-3094,-1288.627639205506]
+        - [-1426,-2248.080875469312]
+        - [-1076,-2687.904885891725]
+      icon: zelda
+      counter: .var(counter-statue)
+      comment: Just two long BLSSes
+- Temple of Time:
+  - Warp to GP Tower:
+     color: red
+     movements:
+       - to: [-560.04, 176.56, 1694.86] 
+         warp: true
+         exclude: true
+     icon: tower
+  - Temple of Time Statue:
+     coord: [-823.26, 225.44, 2031.48]
+     icon: zelda
+     counter: .var(counter-statue)
+     comment: Turn WB S
+- Kakariko:
+  - BLSS to Kak:
+     movements:
+      - [-806,1963.8508102157475]
+      - [1772.71, 229.43, 984.31]
+     comment: Use top of ToT
+  - Talk to Impa:
+     coord: [1772.71, 229.43, 984.31]
+     icon: impa
+  - Kakariko Village Statue:
      coord: [1840.12, 218.54, 997.89]
+     icon: zelda
+     counter: .var(counter-statue)
 - Spring of Courage:
   - BLSS off stump:
-      coord: [1870,815.5]
-  - Farosh scale:
-      coord: [1739,2967.25]
-      icon: item
-  - Offer scale to statue:
-      coord: [874.84, 125.34, 2359.00]
-      icon: item
+     coord: [1875.5,814.5122722365859]
+  - Shoot Farosh:
+     coord: [1737,2953.7786741147575]
+     icon: bow
   - Spring of Courage Statue:
-      coord: [874.84, 125.34, 2359.00]
-      icon: zelda
-      counter: .var(counter-statue)
-      comment: Offer scale first
-  - Save-reload x2:
-      coord: [874.84, 125.34, 2359.00]
-- Lurelin:
-  - BLSS off terrain:
-      coord: [785,2407.8609543188213]
-  - Lurelin Statue:
-      movements:
-        - [1354,3308.8132917532184]
-        - [2702,3293.8683394733944]
-        - [2923.36, 106.25, 3444.56]
-      icon: zelda
-      counter: .var(counter-statue)
-- Hateno:
-  - BLSS using rock:
+     coord: [874.84, 125.34, 2359.00]
+     icon: zelda
+     comment: Offer scale first
+     counter: .var(counter-statue)
+- Lurelin Village:
+  - BLSS to Lurelin: 
      movements:
-      - [2832.75,3310.9589979610028]
-      - [2819,3223.7585125340484]
-      - [2992,3208.5198625794455]
-  - Hateno Statue:
+      - [783.75,2404.223327393317]
+      - [1340,3375.4540628164013]
+      - [2967.01, 101.38, 3501.98]
+  - Get 5x fire arrow:
+     coord: [2967.01, 101.38, 3501.98]
+     icon: bow
+  - Lurelin Village Statue:
+     coord: [2923.36, 106.25, 3444.56]
+     icon: zelda
+     counter: .var(counter-statue)
+- Hateno Village:
+   - WB chain to BLSS spot:
+      movements:
+       - [2833.36, 151.75, 3310.97]
+       - [2817.88, 221.54, 3234.48]
+       - [3049.5,3269.2240367711547]
+   - BLSS to Hateno:
+      coord: [3439.16, 236.02, 2098.46]
+   - Hateno Village Statue:
       coord: [3439.16, 236.02, 2098.46]
       icon: zelda
       counter: .var(counter-statue)
 - Spring of Wisdom:
-  - WB chain up to Naydra:
-      movements:
-        - [3640,2098.8308843235836]
-        - [3784,2114.821804287266]
-        - [3817,1696.778106612488]
-        - [4019,1518.8791220165213]
-        - [3966,1354.9721923887773]
-  - Naydra fight:
-     movements:
-      - [3856,1314.4826202429858]
-      - [3898,1682.6589311358184]
-      - [3427,1358.8428018712511]
-     icon: bow
-  - Shoot Nayrda:
-     coord: [3427,1358.8428018712511]
-     comment: Offer scale to open door
-     icon: bow
+  - WB chain up  to Nayrda:
+     coord: [3910.78, 574.69, 1328.30]
+  - Drop scale:
+     coord: [3910.78, 574.69, 1328.30]
+     icon: item
   - _Shrine::JitanSami
+  - Save/Reload:
+     coord: [3910.78, 574.69, 1328.30]
   - Spring of Wisdom Statue:
-     movements:
-     - to: [3966,1354.9721923887773]
-       warp: true
-       exclude: true
+     coord: [3910.78, 574.69, 1328.30]
      icon: zelda
      counter: .var(counter-statue)
 - Goron City:
   - Goron City Statue:
      coord: [1722.25, 498.86, -2456.24]
-     comment: It's just 1 long BLSS
+     comment: It's just one long BLSS
      icon: zelda
      counter: .var(counter-statue)
-- Korok Forest:
-  - WB chain to Lost Woods:
-     movements:
-      - [1156,-2506.3223412892767]
-      - [756,-2356.4074666297565]
-     comment: Void out in the Test of Wood zone
-  - Korok Forest Statue:
-     movements:
-      - to: [564.99, 264.83, -2160.65]
-        warp: true
-        exclude: true
-      - [415.74, 258.73, -2179.85]
-     icon: zelda
-     counter: .var(counter-statue)
-- Rito Village:
-   - BLSS from top of Deku Tree:
-      movements:
-       - [434,-2094.131944277741]
-       - [412.9375,-2179.4517230256383]
-      notes: This can be very difficult and inconsistent so warping to cryo is a good alternative
-   - Rito Village Statue:
-      movements:
-       - [-69,-1774.176493205924]
-       - [-3610.42, 286.45, -1805.15]
-      icon: zelda
-      counter: .var(counter-statue)
-- Forgotten Temple:
-  - "BLSS from trees by Akh Va'quot":
-     coord: [-3665,-1765.1058391733277]
-     comment: Get wood from tree
-  - Set morning:
-     coord: [-3248,-984.3508400640576]
-  - Shoot Dinraal and get scale:
-     coord: [-2708,-1488.0637891025558]
-     icon: bow
-  - Forgotten Temple Statue:
-     coord: [-1083.3125,-2668.9971979575425]
-     comment: You should see Dinraal on the way (else rip). Get scale and WB the rest of the way
-     icon: zelda
-     counter: .var(counter-statue)
-- "Zora's Domain":
-  - "Warp to Ta'loh Naeg":
-     color: red
-     movements:
-     - to: [1841.625,890.4899977724936]
-       warp: true
-       exclude: true    
-     icon: shrine
-  - BLSS off stump:
-     coord: [1873.5,814.9472222889035]
-  - "Zora's Domain Statue":
+- Zora's Domain:
+  - Zora's Domain Statue:
      coord: [3316.89, 256.04, -503.94]
      icon: zelda
+     comment: Just another long BLSS
      counter: .var(counter-statue)
 - Tarrey Town:
   - BLSS from top of water fall:
@@ -229,28 +215,16 @@
      icon: zelda
      counter: .var(counter-statue)
      comment: Offer scale first
-  - Save-reload:
-     coord: [3760.55, 111.16, -2679.37]
-- Temple of Time:
-  - Warp to Tower:
+- Gerudo Town:
+  - Warp to Cryo:
      color: yellow
      movements:
-     - to: [-560.04, 176.56, 1694.86]
+     - to: [-1437.27, 316.69, 1995.57]
        warp: true
        exclude: true    
      icon: tower
-  - Temple of Time Statue:
-     coord: [-823.26, 225.44, 2031.48]
-     icon: zelda
-     counter: .var(counter-statue)
-     comment: Turn WB S
-- Gerudo Town:
-  - BLSS from top of ToT:
-     coord: [-807.5,1972.6641410070506]
   - Gerudo Town Statue:
-     movements:
-      - [-2246,1841.5637281021618]
-      - [-3769.63, 148.98, 2944.35]
+     coord: [-3769.63, 148.98, 2944.35]
      icon: zelda
      counter: .var(counter-statue)
      notes: Use campfire unloading to get in. Climb over the wall by the guard on the eastern wall so you're in town in-line with the statue. Run and mash A. The campfire will still be there to retry if it fails

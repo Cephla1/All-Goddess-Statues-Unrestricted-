@@ -1,5 +1,5 @@
 title: All Goddess Statues (Unrestricted)
-version: 1.0.6
+version: 1.1.0
 route: 
   use: ./main.yaml
 config:
@@ -22,6 +22,7 @@ config:
 - use: Pistonight/celer-presets/botw/full.yaml
 - plugins:
   - use: variables
+  - use: link
 - tags:
     counter-statues:
       color: blue
