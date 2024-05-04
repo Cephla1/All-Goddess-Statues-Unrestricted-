@@ -50,10 +50,6 @@
       coord: [-809.33, 263.58, 1964.35]
       icon: oldman
 - Kakariko Village:
-  - Soldier's Bow:
-      coord: [-809.33, 263.58, 1964.35]
-      icon: bow
-      comment: Drop traveler's bow
   - BLSS to Kak:
       coord: [1772.71, 229.43, 984.31]
   - Talk to Impa:
@@ -68,23 +64,23 @@
   - IST:
       coord: [1834,1021.3226555406709]
       icon: ist
-      notes: .link(https://zsr.link/1azRL)
-  - Save/reload x2:
-     coord: [1834,1021.3226555406709]
-     comment: Make sure to sync gamedata between reloads
+      notes: .link(https://zsr.link/mwvuN)
+      comment: Make sure to sync gamedata between reloads
   - Kakariko Village Statue:
       coord: [1834,1021.3226555406709]
       comment: Exchange stam (do this for all statues)
       icon: zelda
       counter: .var(counter-statue)
-  - Save-reload:
-     coord: [1834,1021.3226555406709]
 - Korok Forest:
   - Activate Ta'loh Naeg:
      coord: [1840.625,890.9577210808957]
      icon: shrine
   - BLSS off stump:
      coord: [1875,812.4778674114759]
+  - _Shrine::KeoRuug
+  - Save/reload x3:
+     coord: [471,-2167.8949335172288]
+     comment: sync gamedata between reloads
   - Korok Forest Statue:
      coord: [415.74, 258.73, -2179.85]
      icon: zelda
@@ -138,7 +134,10 @@
      movements:
       - [783.75,2404.223327393317]
       - [1340,3375.4540628164013]
-      - [2923.36, 106.25, 3444.56]
+      - [2967.01, 101.38, 3501.98]
+  - 5x fire arrow:
+     coord: [2967.01, 101.38, 3501.98]
+     icon: bow
   - Lurelin Village Statue:
      coord: [2923.36, 106.25, 3444.56]
      icon: zelda
@@ -162,38 +161,40 @@
      coord: [3910.78, 574.69, 1328.30]
      icon: item
   - _Shrine::JitanSami
-  - Save/Reload:
-     coord: [3910.78, 574.69, 1328.30]
   - Spring of Wisdom Statue:
      coord: [3910.78, 574.69, 1328.30]
      icon: zelda
      counter: .var(counter-statue)
+- Zora's Domain:
+  - BLSS to ZD:
+     coord: [3235.39, 251.42, -420.78]
+  - Silver bow:
+     coord: [3235.39, 251.42, -420.78]
+     icon: bow
+     comment: drop traveler's bow
+  - Zora's Domain Statue:
+     coord: [3316.89, 256.04, -503.94]
+     icon: zelda
+     counter: .var(counter-statue)
 - Goron City:
+  - Warp to Jitan Sa'mi:
+     color: yellow
+     movements:
+      - to: [3883.25,1314.936581621344]
+        warp: true
   - Goron City Statue:
      coord: [1722.25, 498.86, -2456.24]
      comment: It's just one long BLSS
      icon: zelda
      counter: .var(counter-statue)
-- Zora's Domain:
-  - Zora's Domain Statue:
-     coord: [3316.89, 256.04, -503.94]
-     icon: zelda
-     comment: Just another long BLSS
-     counter: .var(counter-statue)
 - Tarrey Town:
-  - BLSS from top of water fall:
+  - BLSS from ores to the W:
      movements:
-      - [3303.375,-502.6932459604823]
-      - [3152,-478.06895152578727]
-      - [3063,-478.56866777465257]
-     notes: This spot is a bit low so you need to go under the bridge by the citadel
-  - Tarrey Town Statue:
-     movements:
-      - [3032,-305.1231479925582]
-      - [2641,-400.069235276922]
-      - [2948,-1216.2951011803234]
-      - [3576,-1188.3109912438777]
+      - [1397.89, 497.15, -2489.04]
+      - [1858,-1546.6163074650613]
       - [3966.27, 233.84, -1611.22]
+  - Tarrey Town Statue:
+     coord: [3966.27, 233.84, -1611.22]
      icon: zelda
      counter: .var(counter-statue)
 - Spring of Power:
@@ -204,13 +205,15 @@
      comment: Offer scale first
 - Temple of Time:
   - Warp to GP Tower:
-     color: yellow
+     color: green
      movements:
        - to: [-560,1696.7956991828523]
          warp: true
      icon: tower
   - Temple of Time Statue:
      coord: [-823.26, 225.44, 2031.48]
+     icon: zelda
+     counter: .var(counter-statue)
 - Gerudo Town:
   - BLSS from EMS spot:
      coord: [-946.25,2151.1650165350893]
