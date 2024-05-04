@@ -49,34 +49,46 @@
   - Paraglider:
       coord: [-809.33, 263.58, 1964.35]
       icon: oldman
-- Korok Forest:
+- Kakariko Village:
   - Soldier's Bow:
       coord: [-809.33, 263.58, 1964.35]
       icon: bow
       comment: Drop traveler's bow
-  - BLSS to Korok Forest:
-      movements:
-       - [-945.5,2150.7696188215723]
-       - [414.29, 335.23, -2191.91]
+  - BLSS to Kak:
+      coord: [1772.71, 229.43, 984.31]
+  - Talk to Impa:
+      coord: [1772.71, 229.43, 984.31]
+      icon: impa
   - 2x fairies:
-      coord: [414.29, 335.23, -2191.91]
+      coord: [1965.43, 269.69, 854.73]
       icon: item
-  - 2x silent princess:
-      coord: [432.59, 249.18, -2117.53]
+  - 2x blue nightshade:
+      coord: [1961.27, 267.94, 856.07]
       icon: item
   - IST:
-      coord: [422.81, 259.99, -2187.32]
+      coord: [1834,1021.3226555406709]
       icon: ist
-      notes: .link(https://zsr.link/gw1w_)
-  - Save/reload:
-     coord: [422.81, 259.99, -2187.32]
-  - Korok Forest Statue:
-      coord: [415.74, 258.73, -2179.85]
+      notes: .link(https://zsr.link/1azRL)
+  - Save/reload x2:
+     coord: [1834,1021.3226555406709]
+     comment: Make sure to sync gamedata between reloads
+  - Kakariko Village Statue:
+      coord: [1834,1021.3226555406709]
       comment: Exchange stam (do this for all statues)
       icon: zelda
       counter: .var(counter-statue)
   - Save-reload:
+     coord: [1834,1021.3226555406709]
+- Korok Forest:
+  - Activate Ta'loh Naeg:
+     coord: [1840.625,890.9577210808957]
+     icon: shrine
+  - BLSS off stump:
+     coord: [1875,812.4778674114759]
+  - Korok Forest Statue:
      coord: [415.74, 258.73, -2179.85]
+     icon: zelda
+     counter: .var(counter-statue)
 - Rito Village:
   - BLSS off top of Deku Tree:
       movements:
@@ -95,8 +107,6 @@
       coord: [-3610.42, 286.45, -1805.15]
       icon: zelda
       counter: .var(counter-statue)
-  - Save/reload:
-      coord: [-3610.42, 286.45, -1805.15]
 - Forgotten Temple:
   - Forgotten Temple BLSS:
       movements:
@@ -106,33 +116,13 @@
       icon: zelda
       counter: .var(counter-statue)
       comment: Just two long BLSSes
-- Temple of Time:
-  - Warp to GP Tower:
+- Spring of Courage:
+  - Warp to Ta'loh Naeg:
      color: red
      movements:
-       - to: [-560.04, 176.56, 1694.86] 
+       - to: [1840.625,890.9577210808957]
          warp: true
-         exclude: true
-     icon: tower
-  - Temple of Time Statue:
-     coord: [-823.26, 225.44, 2031.48]
-     icon: zelda
-     counter: .var(counter-statue)
-     comment: Turn WB S
-- Kakariko:
-  - BLSS to Kak:
-     movements:
-      - [-806,1963.8508102157475]
-      - [1772.71, 229.43, 984.31]
-     comment: Use top of ToT
-  - Talk to Impa:
-     coord: [1772.71, 229.43, 984.31]
-     icon: impa
-  - Kakariko Village Statue:
-     coord: [1840.12, 218.54, 997.89]
-     icon: zelda
-     counter: .var(counter-statue)
-- Spring of Courage:
+     icon: shrine
   - BLSS off stump:
      coord: [1875.5,814.5122722365859]
   - Shoot Farosh:
@@ -148,10 +138,7 @@
      movements:
       - [783.75,2404.223327393317]
       - [1340,3375.4540628164013]
-      - [2967.01, 101.38, 3501.98]
-  - Get 5x fire arrow:
-     coord: [2967.01, 101.38, 3501.98]
-     icon: bow
+      - [2923.36, 106.25, 3444.56]
   - Lurelin Village Statue:
      coord: [2923.36, 106.25, 3444.56]
      icon: zelda
@@ -215,16 +202,22 @@
      icon: zelda
      counter: .var(counter-statue)
      comment: Offer scale first
-- Gerudo Town:
-  - Warp to Cryo:
+- Temple of Time:
+  - Warp to GP Tower:
      color: yellow
      movements:
-     - to: [-1437.27, 316.69, 1995.57]
-       warp: true
-       exclude: true    
+       - to: [-560,1696.7956991828523]
+         warp: true
      icon: tower
+  - Temple of Time Statue:
+     coord: [-823.26, 225.44, 2031.48]
+- Gerudo Town:
+  - BLSS from EMS spot:
+     coord: [-946.25,2151.1650165350893]
   - Gerudo Town Statue:
-     coord: [-3769.63, 148.98, 2944.35]
+     movements:
+      - [-2142,1779.4813029253546]
+      - [-3769.63, 148.98, 2944.35]
      icon: zelda
      counter: .var(counter-statue)
      notes: Use campfire unloading to get in. Climb over the wall by the guard on the eastern wall so you're in town in-line with the statue. Run and mash A. The campfire will still be there to retry if it fails
