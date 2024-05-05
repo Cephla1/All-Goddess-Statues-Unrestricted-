@@ -85,6 +85,16 @@
 - Korok Forest:
   - BLSS off stump:
      coord: [1875,812.4778674114759]
+  - Dinraal Scale:
+      coord: [-196.46, 153.20, -1218.59]
+      icon: item
+  - Naydra Scale:
+      coord: [-182.29, 235.23, -1169.52]
+      icon: item
+      comment: WB N + midair S
+  - BLSS off piece of debris by entrance:
+      coord: [-254.25,-1114.25]
+      comment: Height WB W
   - Korok Forest Statue:
      coord: [415.74, 258.73, -2179.85]
      icon: zelda
@@ -94,15 +104,7 @@
       movements:
        - [432.59, 249.18, -2117.53]
        - [419.82, 335.87, -2186.64]
-  - Dinraal Scale:
-      coord: [-196.46, 153.20, -1218.59]
-      icon: item
-  - Naydra Scale:
-      coord: [-182.29, 235.23, -1169.52]
-      icon: item
-      comment: WB N + midair S
-  - BLSS to Rito :
-      coord: [-3610.42, 286.45, -1805.15]
+       - [-2816,-1618]
   - Rito Village Statue:
       coord: [-3610.42, 286.45, -1805.15]
       icon: zelda
