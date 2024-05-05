@@ -1,5 +1,5 @@
 title: All Goddess Statues (Unrestricted)
-version: 1.3.0
+version: 1.3.1
 route: 
   use: ./main.yaml
 config:

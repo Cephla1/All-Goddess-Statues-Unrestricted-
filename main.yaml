@@ -42,7 +42,6 @@
       icon: shrine
   - Boulder -> BLSS -> Clip in:
       coord: [-1437.27, 316.69, 1995.57]
-      comment: get 1 stack of wood from the blss tree
   - _Shrine::KehNamut
   - BLSS:
       coord: [-809.33, 263.58, 1964.35]
@@ -55,32 +54,37 @@
   - Talk to Impa:
       coord: [1772.71, 229.43, 984.31]
       icon: impa
+  - Activate Ta'loh Naeg:
+      coord: [1840.625,890.9577210808957]
+      icon: shrine
   - 2x fairies:
       coord: [1965.43, 269.69, 854.73]
       icon: item
   - 2x blue nightshade:
       coord: [1961.27, 267.94, 856.07]
       icon: item
+  - 2x wood:
+      coord: [1989,869]
+      icon: item
+  - 2x silent princess:
+      coord: [1995.75, 267.90, 842.24]
+      icon: item
+  - 2x apple:
+      coord: [1808.57, 218.99, 993.36]
+      icon: item
   - IST:
       coord: [1834,1021.3226555406709]
       icon: ist
-      notes: .link(https://zsr.link/mwvuN)
-      comment: Make sure to sync gamedata between reloads
+      notes: .link(https://zsr.link/K40Lb)
+      comment: SORT KEY ITEMS
   - Kakariko Village Statue:
       coord: [1834,1021.3226555406709]
       comment: Exchange stam (do this for all statues)
       icon: zelda
       counter: .var(counter-statue)
 - Korok Forest:
-  - Activate Ta'loh Naeg:
-     coord: [1840.625,890.9577210808957]
-     icon: shrine
   - BLSS off stump:
      coord: [1875,812.4778674114759]
-  - _Shrine::KeoRuug
-  - Save/reload x3:
-     coord: [471,-2167.8949335172288]
-     comment: sync gamedata between reloads
   - Korok Forest Statue:
      coord: [415.74, 258.73, -2179.85]
      icon: zelda
