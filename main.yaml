@@ -34,13 +34,13 @@
       icon: oldman
   - _Tower::GreatPlateau
   - _Shrine::OmanAu
-  - BLSS -> Tree WB -> Clip in:
+  - BLSS -> Tree WB:
       coord: [-828.25,2254.975952091315]
-  - Owa Daim:
+  - _Shrine::OwaDaim:
       coord: [-928.57, 266.82, 2321.73]
       comment: Get sledgehammer
       icon: shrine
-  - Boulder -> BLSS -> Clip in:
+  - Boulder -> BLSS:
       coord: [-1437.27, 316.69, 1995.57]
   - _Shrine::KehNamut
   - BLSS:
@@ -75,8 +75,7 @@
   - IST:
       coord: [1834,1021.3226555406709]
       icon: ist
-      notes: .link(https://zsr.link/K40Lb)
-      comment: SORT KEY ITEMS
+      notes: .link(https://zsr.link/FSBBB)
   - Kakariko Village Statue:
       coord: [1834,1021.3226555406709]
       comment: Exchange stam (do this for all statues)
@@ -92,8 +91,8 @@
       coord: [-182.29, 235.23, -1169.52]
       icon: item
       comment: WB N + midair S
-  - BLSS off piece of debris by entrance:
-      coord: [-254.25,-1114.25]
+  - BLSS off top of pillar:
+      coord: [-254.5,-1320.262910676639]
       comment: Height WB W
   - Korok Forest Statue:
      coord: [415.74, 258.73, -2179.85]
@@ -161,12 +160,14 @@
       icon: zelda
       counter: .var(counter-statue)
 - Spring of Wisdom:
-  - WB chain up  to Nayrda:
+  - WB chain up to Nayrda:
      coord: [3910.78, 574.69, 1328.30]
   - Drop scale:
      coord: [3910.78, 574.69, 1328.30]
      icon: item
-  - _Shrine::JitanSami
+  - Activate Jitan Sa'mi:
+     coord: [3883.25,1314.936581621344]
+     icon: shrine
   - Spring of Wisdom Statue:
      coord: [3910.78, 574.69, 1328.30]
      icon: zelda
